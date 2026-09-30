@@ -1,0 +1,40 @@
+{
+  "name": "ai-crawler-check",
+  "version": "1.0.0",
+  "description": "Check which AI crawlers your robots.txt is blocking — CLI and library",
+  "keywords": [
+    "robots-txt",
+    "ai-crawlers",
+    "seo",
+    "gpubot",
+    "crawlguard",
+    "gptbot",
+    "claudebot",
+    "robots",
+    "crawler",
+    "web-scraping"
+  ],
+  "homepage": "https://github.com/lior-seats/ai-crawler-check#readme",
+  "bugs": {
+    "url": "https://github.com/lior-seats/ai-crawler-check/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lior-seats/ai-crawler-check.git"
+  },
+  "license": "MIT",
+  "author": "lior-seats",
+  "main": "index.js",
+  "bin": {
+    "ai-crawler-check": "./cli.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
